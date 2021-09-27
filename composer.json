@@ -1,0 +1,24 @@
+{
+  "name": "pmpr-cmn/wp-cmn-theme",
+  "type": "project",
+  "license": "proprietary",
+  "description": "Foundation of Themes for Wordpress",
+  "keywords": [
+    "foundation",
+    "wordpress",
+    "theme"
+  ],
+  "require": {
+    "php": ">=7.4",
+    "pmpr-cmn/wp-cmn-foundation": "dev-main"
+  },
+  "autoload": {
+    "psr-4": {
+      "Pmpr\\Common\\Theme\\": "src/Pmpr/Common/Theme"
+    },
+    "files": [
+      "index.php"
+    ]
+  },
+  "minimum-stability": "dev"
+}

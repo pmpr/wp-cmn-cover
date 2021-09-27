@@ -1,0 +1,7 @@
+<?php
+/*   _______________________________________
+    |  Obfuscated by PMPR - Php Obfuscator  |
+    |             6151bffce933c             |
+    |_______________________________________|
+*/
+ namespace Pmpr\Common\Theme; use Pmpr\Common\Foundation\Manipulate\Theme\ManipulateHTML; use Pmpr\Common\Foundation\Manipulate\Type\ManipulateArray; class Admin extends Container { public function wigskegsqequoeks() { $this->qcsmikeggeemccuu("\x61\144\155\x69\x6e\x5f\150\145\141\x64", [$this, "\153\143\165\151\x79\153\161\x75\141\x67\x67\165\x73\x71\153\141"]); parent::wigskegsqequoeks(); } public function kcuiykquaggusqka() { goto acaqummmoyiemqss; acaqummmoyiemqss: $weowoqykiyuqcwam = $this->sscegwueamckwmcy("\164\150\145\155\x65\137\x6c\157\147\x6f\137\x67\x65\164\x5f\x64\141\x74\141", [], ["\x74\x61\162\147\145\x74" => "\163\x6d\x61\x6c\154\x5f\154\157\147\157"]); goto suswcqoyyqkkquuo; suswcqoyyqkkquuo: $weowoqykiyuqcwam = ManipulateArray::get($weowoqykiyuqcwam, "\x75\162\x6c"); goto eeqesooyqagwawae; oqugqwcyomiaaoqu: $icyaoosaykeskiuu = $this->iuygowkemiiwqmiw("\x6d\x65\156\165\56\143\x73\163", ["\x6c\157\x67\x6f" => $weowoqykiyuqcwam]); goto foeeqckqsyockkak; eeqesooyqagwawae: if (!$weowoqykiyuqcwam) { goto soqqemyioggmoakg; } goto oqugqwcyomiaaoqu; foeeqckqsyockkak: ManipulateHTML::sykissckqqccoiqs("\x73\164\171\154\x65", [], $icyaoosaykeskiuu); goto iekumemscwieugqw; iekumemscwieugqw: soqqemyioggmoakg: goto hoeeyiowekaeemko; hoeeyiowekaeemko: } }

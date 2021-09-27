@@ -1,0 +1,38 @@
+{% if items is defined and items is not empty %}
+
+    {% include get_template('template_header', _self) %}
+    <div class="row my-5">
+        {% set columns = "col-12 col-md-2 col-lg-" ~ (12 / column|default(4)) %}
+        {% for item in items %}
+            {% set url = include(get_include_template('render_url')) %}
+            <div class="d-flex {{ columns }} {{ card_bottom_margin(loop, columns) }}">
+                {% embed get_include_template('card') with {
+                    attrs: {}
+                } %}
+                    {% block before_body %}
+                        {% if url is not empty %}
+                            <a href="{{ url|esc_attr }}">
+                        {% endif %}
+                        {% include get_include_template('render_image') with {
+                            id: item.id,
+                            class: 'img-fluid h-100 w-100'
+                        } %}
+                        {% if url is not empty %}
+                            </a>
+                        {% endif %}
+                    {% endblock %}
+                    {% block body %}
+                        {% if url is not empty %}
+                            <a href="{{ url|esc_attr }}">
+                        {% endif %}
+                        <span class="h6 card-title">{% include get_include_template('render_title') %}</span>
+                        {% if url is not empty %}
+                            </a>
+                        {% endif %}
+                        <div class="card-text">{% include get_include_template('render_description') %}</div>
+                    {% endblock %}
+                {% endembed %}
+            </div>
+        {% endfor %}
+    </div>
+{% endif %}

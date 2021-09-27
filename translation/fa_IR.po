@@ -1,0 +1,227 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Pmpr Theme Foundation\n"
+"Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
+"POT-Creation-Date: 2021-05-11 06:52+0430\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Farshadi <Farshad_asgharzade@hotmail.com>\n"
+"Language-Team: Your Team <translations@example.com>\n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;esc_attr_e;"
+"esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;_n:1,2;"
+"_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: src/Pmpr/Theme/Foundation/Search.php:65
+#, php-format
+msgid "Search in %s"
+msgstr "جستجو در %s"
+
+#: src/Pmpr/Theme/Foundation/Setting.php:34
+msgid "Setting"
+msgstr "تنظیمات"
+
+#: src/Pmpr/Theme/Foundation/Setting.php:35
+msgid "Theme Setting"
+msgstr "تنظیمات پوسته"
+
+#: src/Pmpr/Theme/Foundation/Setting.php:43
+#: src/Pmpr/Theme/Foundation/Setting.php:47
+msgid "General"
+msgstr "عمومی"
+
+#: src/Pmpr/Theme/Foundation/Setting.php:51
+msgid "Logos"
+msgstr "لوگوها"
+
+#: src/Pmpr/Theme/Foundation/Setting.php:55
+#: src/Pmpr/Theme/Foundation/Setting.php:107
+#: src/Pmpr/Theme/Foundation/Widget/Logo.php:31
+msgid "Logo"
+msgstr "لوگو"
+
+#: src/Pmpr/Theme/Foundation/Setting.php:60
+#: src/Pmpr/Theme/Foundation/Setting.php:93
+#: src/Pmpr/Theme/Foundation/Setting.php:120
+#: src/Pmpr/Theme/Foundation/Widget/Search.php:34
+msgid "Title"
+msgstr "عنوان"
+
+#: src/Pmpr/Theme/Foundation/Setting.php:65
+msgid "Upload website logo."
+msgstr "لگوی وب‌سایت خود را آپلود کنید."
+
+#: src/Pmpr/Theme/Foundation/Setting.php:70
+msgid "Footer"
+msgstr "پاورقی سایت"
+
+#: src/Pmpr/Theme/Foundation/Setting.php:74
+msgid "Enable Scroll Top"
+msgstr "فعال سازی اسکرول به بالا"
+
+#: src/Pmpr/Theme/Foundation/Setting.php:79
+#: src/Pmpr/Theme/Foundation/Widget/Link.php:18
+msgid "Page Links"
+msgstr "پیوند صفحات"
+
+#: src/Pmpr/Theme/Foundation/Setting.php:83
+msgid "Page"
+msgstr "صفحه"
+
+#: src/Pmpr/Theme/Foundation/Setting.php:88
+#: src/Pmpr/Theme/Foundation/Setting.php:115
+msgid "Priority"
+msgstr "اولویت"
+
+#: src/Pmpr/Theme/Foundation/Setting.php:94
+msgid "Leave empty if you want show page title."
+msgstr "اگر می‌خواهید عنوان صفحه مورد نظر نمایش داده شود، چیزی ننویسید."
+
+#: src/Pmpr/Theme/Foundation/Setting.php:98
+msgid "We show selected page as Link in footer after contact information."
+msgstr "صفحات انتخاب شده در بخش پاورقی وب‌سایت نمایش داده خواهند شد."
+
+#: src/Pmpr/Theme/Foundation/Setting.php:103
+#: src/Pmpr/Theme/Foundation/Widget/Badge.php:18
+#: src/Pmpr/Theme/Foundation/Widget/Badge.php:30
+msgid "Badges"
+msgstr "نشان‌ها"
+
+#: src/Pmpr/Theme/Foundation/Setting.php:111
+msgid "Url"
+msgstr "پیوند"
+
+#: src/Pmpr/Theme/Foundation/Setting.php:121
+msgid "Use as logo alt."
+msgstr "نمایش به عنوان جایگزین تصویر."
+
+#: src/Pmpr/Theme/Foundation/Setting.php:131
+msgid "Advanced"
+msgstr "پیشرفته"
+
+#: src/Pmpr/Theme/Foundation/Setting.php:135
+msgid "APIs"
+msgstr "وب سرویس‌ها"
+
+#: src/Pmpr/Theme/Foundation/Setting.php:139
+msgid "Google Analytics Key"
+msgstr "کد آنالاتیک"
+
+#: src/Pmpr/Theme/Foundation/Widget/Badge.php:18
+msgid "Display the badges."
+msgstr "نمایش نشان‌ها."
+
+#: src/Pmpr/Theme/Foundation/Widget/Badge.php:29
+#: src/Pmpr/Theme/Foundation/Widget/Link.php:29
+msgid "leave empty if you want to show all items."
+msgstr ""
+"اگر می‌خواهید تمامی آیتم‌های موجود نمایش داده شود،‌لطفا این فیلد را خالی بگذارید."
+
+#: src/Pmpr/Theme/Foundation/Widget/Copyright.php:29
+msgid "Copyright"
+msgstr "کپی رایت"
+
+#: src/Pmpr/Theme/Foundation/Widget/Copyright.php:29
+msgid "Display the copyright."
+msgstr "نمایش کپی رایت."
+
+#: src/Pmpr/Theme/Foundation/Widget/Copyright.php:40
+msgid "Copyright text"
+msgstr "متن کپی رایت"
+
+#: src/Pmpr/Theme/Foundation/Widget/Copyright.php:43
+#, php-format
+msgid "You can use %s short keys"
+msgstr ""
+"شما می‌توانید از کلید‌های %s  در متن استفاده کنید، که در حین نمایش، با مقادیر "
+"مربوطه جایگزین خواهند شد"
+
+#: src/Pmpr/Theme/Foundation/Widget/Copyright.php:49
+msgid "Start date"
+msgstr "تاریخ شروع"
+
+#: src/Pmpr/Theme/Foundation/Widget/Link.php:18
+msgid "Display the page links."
+msgstr "نمایش پیوند صفحات."
+
+#: src/Pmpr/Theme/Foundation/Widget/Link.php:30
+msgid "Include Page Links"
+msgstr "شامل پیوند صفحات"
+
+#: src/Pmpr/Theme/Foundation/Widget/Logo.php:20
+msgid "Site Logo"
+msgstr "لوگوی سایت"
+
+#: src/Pmpr/Theme/Foundation/Widget/Logo.php:20
+msgid "Display the site logo."
+msgstr "نمایش لوگوی سایت."
+
+#: src/Pmpr/Theme/Foundation/Widget/Logo.php:36
+msgid "Link"
+msgstr "پیوند"
+
+#: src/Pmpr/Theme/Foundation/Widget/Logo.php:37
+msgid "Link of logo"
+msgstr "پیوند لوگو"
+
+#: src/Pmpr/Theme/Foundation/Widget/Search.php:24
+msgid "Advance Search"
+msgstr "جتسجوی پیشرفته"
+
+#: src/Pmpr/Theme/Foundation/Widget/Search.php:24
+msgid "Advance Search functionality."
+msgstr "قابلیت جستجوی پیشرفته"
+
+#: src/Pmpr/Theme/Foundation/Widget/Search.php:38
+msgid "Show Result Count"
+msgstr "نمایش تعداد نتایج"
+
+#: src/Pmpr/Theme/Foundation/Widget/Search.php:42
+msgid "Post type"
+msgstr "نوع نوشته"
+
+#: src/Pmpr/Theme/Foundation/Widget/Search.php:43
+msgid ""
+"If you want process target post type automatically, leave this field empty."
+msgstr ""
+"اگر می‌خواهید نوع نوشته به صورت خودکار تشخیص داده شود، این فیلد را خالی "
+"بگذارید."
+
+#: src/Pmpr/Theme/Foundation/Widget/Search.php:71
+#, php-format
+msgid "%s Results"
+msgstr "%s نتیجه"
+
+#: src/Pmpr/Theme/Foundation/Woocommerce/Template.php:126
+msgid "&laquo; Previous"
+msgstr "&laquo; قبلی"
+
+#: src/Pmpr/Theme/Foundation/Woocommerce/Template.php:127
+msgid "Next &raquo;"
+msgstr "بعدی &raquo;"
+
+#~ msgid "Search"
+#~ msgstr "جستجو"
+
+#~ msgid "Small Logo"
+#~ msgstr "لوگوی کوچک"
+
+#~ msgid "If you have a small version of logo upload it here."
+#~ msgstr "اگر نسخه کوچکتری از لگوی خود دارید در این قسمت قرار دهید."
+
+#~ msgid "Pages in Footer"
+#~ msgstr "لینک‌های پاورقی سایت"
+
+#~ msgid "Item"
+#~ msgstr "آیتم‌"
+
+#~ msgid "Theme"
+#~ msgstr "پوسته"

@@ -1,0 +1,7 @@
+<ul>
+    {% for key, item in items %}
+        <li>
+            <a href="{{ item.permalink|raw }}">{{ item.title|raw }}</a>
+        </li>
+    {% endfor %}
+</ul>
