@@ -4,4 +4,4 @@
     |             61afe14145040             |
     |_______________________________________|
 */
- namespace Pmpr\Common\Theme\Widget; use Pmpr\Common\Foundation\Widget; abstract class Common extends Widget { }
+ namespace Pmpr\Common\Theme\Customize; use Pmpr\Common\Theme\Container; class Common extends Container { }
