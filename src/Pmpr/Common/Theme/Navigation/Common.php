@@ -4,4 +4,4 @@
     |             61b74f47bea05             |
     |_______________________________________|
 */
- namespace Pmpr\Common\Theme\Customize\Setting; class UserMeta extends Setting { }
+ namespace Pmpr\Common\Theme\Navigation; use Pmpr\Common\Theme\Container; abstract class Common extends Container { }
