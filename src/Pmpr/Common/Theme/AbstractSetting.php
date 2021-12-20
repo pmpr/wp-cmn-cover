@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             61c0329a4f72f             |
+    |             61c066f115e4b             |
     |_______________________________________|
 */
- namespace Pmpr\Common\Theme; abstract class AbstractSetting extends Container { public function wigskegsqequoeks() { $this->qcsmikeggeemccuu($this->ygyygikyocoymgaw("\x74\150\x65\x6d\x65\137\x73\145\164\x74\x69\156\147\137\147\x65\156\145\x72\x61\164\x65\137\x66\157\x72\155"), [$this, "\143\x69\167\165\151\x77\163\x79\x63\x6b\x69\151\157\x67\x77\157"]); parent::wigskegsqequoeks(); } public final function ciwuiwsyckiiogwo($amakmumgguksgmum) { $amakmumgguksgmum->ciwuiwsyckiiogwo($this->equiyaoamqmaeckc()); } public abstract function equiyaoamqmaeckc() : ?array; public function eiwcuqigayigimak($uusmaiomayssaecw, $ggauoeuaesiymgee = null) { return $this->weysguygiseoukqw($uusmaiomayssaecw, $ggauoeuaesiymgee); } }
+ namespace Pmpr\Common\Theme; abstract class AbstractSetting extends Container { public function wigskegsqequoeks() { $this->qcsmikeggeemccuu($this->ygyygikyocoymgaw("\164\x68\145\x6d\145\137\x73\x65\164\164\151\x6e\x67\x5f\147\x65\x6e\145\x72\141\164\145\137\x66\x6f\x72\x6d"), [$this, "\143\151\167\x75\151\167\x73\171\143\153\x69\151\157\x67\167\x6f"]); parent::wigskegsqequoeks(); } public final function ciwuiwsyckiiogwo($amakmumgguksgmum) { $amakmumgguksgmum->ciwuiwsyckiiogwo($this->equiyaoamqmaeckc()); } public abstract function equiyaoamqmaeckc() : ?array; public function eiwcuqigayigimak($uusmaiomayssaecw, $ggauoeuaesiymgee = null) { return $this->weysguygiseoukqw($uusmaiomayssaecw, $ggauoeuaesiymgee); } }
