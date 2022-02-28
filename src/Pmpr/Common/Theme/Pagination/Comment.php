@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             621bc52080867             |
+    |             621d1b63c0a5c             |
     |_______________________________________|
 */
- namespace Pmpr\Common\Theme\Pagination; class Comment extends Common { protected ?string $type = "\x63\x6f\155\155\x65\x6e\164"; public function kooycocagkkmaiay($ywmkwiwkosakssii = []) { return paginate_comments_links($ywmkwiwkosakssii); } }
+ namespace Pmpr\Common\Theme\Pagination; class Comment extends Common { protected ?string $type = "\143\157\x6d\x6d\x65\156\164"; public function kooycocagkkmaiay($ywmkwiwkosakssii = []) { return paginate_comments_links($ywmkwiwkosakssii); } }
