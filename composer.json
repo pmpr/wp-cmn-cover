@@ -1,8 +1,8 @@
 {
-  "name": "pmpr-cmn/wp-cmn-theme",
+  "name": "pmpr-cmn/wp-cmn-cover",
   "type": "project",
   "license": "proprietary",
-  "description": "Foundation of Themes for Wordpress",
+  "description": "Foundation of Covers for Wordpress",
   "keywords": [
     "foundation",
     "wordpress",
@@ -14,7 +14,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Pmpr\\Common\\Theme\\": "src/Pmpr/Common/Theme"
+      "Pmpr\\Common\\Cover\\": "src/Pmpr/Common/Cover"
     },
     "files": [
       "index.php"
