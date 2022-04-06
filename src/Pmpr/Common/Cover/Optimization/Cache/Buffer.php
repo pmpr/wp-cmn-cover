@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             624be745451d6             |
+    |             624d7f2ed469f             |
     |_______________________________________|
 */
  namespace Pmpr\Common\Cover\Optimization\Cache; class Buffer { }
