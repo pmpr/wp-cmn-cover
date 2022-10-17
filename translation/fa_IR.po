@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pmpr Cover Foundation\n"
 "Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
-"POT-Creation-Date: 2022-10-12 12:08+0330\n"
+"POT-Creation-Date: 2022-10-17 22:13+0330\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Farshadi <Farshad_asgharzade@hotmail.com>\n"
 "Language-Team: Your Team <translations@example.com>\n"
@@ -173,7 +173,6 @@ msgid "None"
 msgstr "هیچکدام"
 
 #: src/Pmpr/Common/Cover/Editor.php:54 src/Pmpr/Common/Cover/Widget/Post.php:114
-#: src/Pmpr/Common/Cover/Widget/Taxonomy.php:116
 msgid "Table"
 msgstr "جدول"
 
@@ -242,7 +241,7 @@ msgstr "تصویر"
 #: src/Pmpr/Common/Cover/Setting.php:101
 #: src/Pmpr/Common/Cover/Widget/Post.php:75
 #: src/Pmpr/Common/Cover/Widget/Search.php:34
-#: src/Pmpr/Common/Cover/Widget/Taxonomy.php:77
+#: src/Pmpr/Common/Cover/Widget/Taxonomy.php:44
 #: src/Pmpr/Common/Cover/Widget/Title.php:16
 msgid "Title"
 msgstr "عنوان"
@@ -314,7 +313,7 @@ msgstr ""
 
 #: src/Pmpr/Common/Cover/Template.php:90
 msgid "Your browser does not support HTML5 video."
-msgstr ""
+msgstr "مرورگر شما تگ ویدئوی HTML5  را پشتیبانی نمی کند."
 
 #: src/Pmpr/Common/Cover/Widget/Copyright.php:26
 msgid "Copyright"
@@ -341,79 +340,67 @@ msgid "Start date"
 msgstr "تاریخ شروع"
 
 #: src/Pmpr/Common/Cover/Widget/Post.php:28
-#: src/Pmpr/Common/Cover/Widget/Taxonomy.php:30
 msgid "Posts"
 msgstr "نوشته‌ها"
 
 #: src/Pmpr/Common/Cover/Widget/Post.php:28
-#: src/Pmpr/Common/Cover/Widget/Taxonomy.php:30
 msgid "Display the posts."
 msgstr "نمایش نوشته‌ها."
 
 #: src/Pmpr/Common/Cover/Widget/Post.php:44
 #: src/Pmpr/Common/Cover/Widget/Post.php:97
-#: src/Pmpr/Common/Cover/Widget/Taxonomy.php:46
-#: src/Pmpr/Common/Cover/Widget/Taxonomy.php:99
 msgid "Related Posts"
 msgstr "نوشته‌های مرتبط"
 
 #: src/Pmpr/Common/Cover/Widget/Post.php:45
-#: src/Pmpr/Common/Cover/Widget/Taxonomy.php:47
 msgid "Recommended Posts"
 msgstr "نوشته‌های پشنهادی"
 
 #: src/Pmpr/Common/Cover/Widget/Post.php:78
-#: src/Pmpr/Common/Cover/Widget/Taxonomy.php:80
+#: src/Pmpr/Common/Cover/Widget/Taxonomy.php:47
 msgid "Count"
 msgstr "تعداد"
 
 #: src/Pmpr/Common/Cover/Widget/Post.php:84
-#: src/Pmpr/Common/Cover/Widget/Taxonomy.php:86
 msgid "Post Type"
 msgstr "نوع نوشته"
 
 #: src/Pmpr/Common/Cover/Widget/Post.php:92
-#: src/Pmpr/Common/Cover/Widget/Taxonomy.php:94
+#: src/Pmpr/Common/Cover/Widget/Taxonomy.php:69
 msgid "Type"
 msgstr "نوع"
 
 #: src/Pmpr/Common/Cover/Widget/Post.php:94
-#: src/Pmpr/Common/Cover/Widget/Taxonomy.php:96
 msgid "Recent Posts"
 msgstr "آخرین نوشته‌ها"
 
 #: src/Pmpr/Common/Cover/Widget/Post.php:95
-#: src/Pmpr/Common/Cover/Widget/Taxonomy.php:97
 msgid "Last Updated"
 msgstr "آخرین به روز شده‌ها"
 
 #: src/Pmpr/Common/Cover/Widget/Post.php:96
-#: src/Pmpr/Common/Cover/Widget/Taxonomy.php:98
 msgid "Most Popular"
 msgstr "محبوب‌ترین‌ها"
 
 #: src/Pmpr/Common/Cover/Widget/Post.php:99
-#: src/Pmpr/Common/Cover/Widget/Taxonomy.php:101
 msgid "Most Controversial"
 msgstr "پر بحث‌‌ترین‌ها"
 
 #: src/Pmpr/Common/Cover/Widget/Post.php:104
-#: src/Pmpr/Common/Cover/Widget/Taxonomy.php:106
 msgid "Metadata"
 msgstr "متادیتا"
 
 #: src/Pmpr/Common/Cover/Widget/Post.php:110
-#: src/Pmpr/Common/Cover/Widget/Taxonomy.php:112
+#: src/Pmpr/Common/Cover/Widget/Taxonomy.php:78
 msgid "Show Template"
 msgstr "قالب نمایش"
 
 #: src/Pmpr/Common/Cover/Widget/Post.php:112
-#: src/Pmpr/Common/Cover/Widget/Taxonomy.php:114
 msgid "Simple List"
 msgstr "لیست ساده"
 
 #: src/Pmpr/Common/Cover/Widget/Post.php:113
-#: src/Pmpr/Common/Cover/Widget/Taxonomy.php:115
+#: src/Pmpr/Common/Cover/Widget/Taxonomy.php:80
 msgid "List"
 msgstr "لیست"
 
@@ -444,6 +431,58 @@ msgstr ""
 #, php-format
 msgid "%s Results"
 msgstr "%s نتیجه"
+
+#: src/Pmpr/Common/Cover/Widget/Taxonomy.php:34
+msgid "Taxonomies"
+msgstr "تکسونومی‌ها"
+
+#: src/Pmpr/Common/Cover/Widget/Taxonomy.php:34
+#, fuzzy
+#| msgid "Display the title."
+msgid "Display the taxonomies."
+msgstr "نمایش عنوان."
+
+#: src/Pmpr/Common/Cover/Widget/Taxonomy.php:53
+#, fuzzy
+#| msgid "Show Result Count"
+msgid "Show Count"
+msgstr "نمایش تعداد نتایج"
+
+#: src/Pmpr/Common/Cover/Widget/Taxonomy.php:55
+msgid "Dont Show"
+msgstr "عدم نمایش"
+
+#: src/Pmpr/Common/Cover/Widget/Taxonomy.php:56
+#, fuzzy
+#| msgid "Show Result Count"
+msgid "Show Post Count"
+msgstr "نمایش تعداد نتایج"
+
+#: src/Pmpr/Common/Cover/Widget/Taxonomy.php:57
+#, fuzzy
+#| msgid "Show Result Count"
+msgid "Show Child Count"
+msgstr "نمایش تعداد نتایج"
+
+#: src/Pmpr/Common/Cover/Widget/Taxonomy.php:62
+msgid "Taxonomy"
+msgstr "تکسونومی"
+
+#: src/Pmpr/Common/Cover/Widget/Taxonomy.php:71
+msgid "Normal"
+msgstr "معمولی"
+
+#: src/Pmpr/Common/Cover/Widget/Taxonomy.php:72
+msgid "Most Used"
+msgstr "بیشترین استفاده شده"
+
+#: src/Pmpr/Common/Cover/Widget/Taxonomy.php:73
+msgid "Just Top Level Parents"
+msgstr "فقط سرشاخه‌ها"
+
+#: src/Pmpr/Common/Cover/Widget/Taxonomy.php:81
+msgid "Tag Cloud"
+msgstr "تگ کلود"
 
 #: src/Pmpr/Common/Cover/Widget/Title.php:16
 msgid "Display the title."
