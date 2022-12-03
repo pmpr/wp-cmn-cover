@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             638a85407a67e             |
+    |             638b366f61e05             |
     |_______________________________________|
 */
- namespace Pmpr\Common\Cover\Optimization; class Buffer extends Common { public function wigskegsqequoeks() { $this->qcsmikeggeemccuu("\x74\145\x6d\160\154\x61\164\145\x5f\x72\145\144\x69\x72\145\x63\164", [$this, "\163\x75\171\141\167\171\143\151\165\145\x63\x65\x67\147\141\141"]); } public function suyawyciueceggaa() { if (!$this->macyowwkykkuosce()) { goto ooeausyowguqicuo; } ob_start([$this, "\x79\x75\141\145\x71\155\x6d\145\x6f\x67\x6f\167\x6f\x61\x65\155"]); ooeausyowguqicuo: } public function yuaeqmmeogowoaem($nsmgceoqaqogqmuw) { return $this->sscegwueamckwmcy($this->ygyygikyocoymgaw("\157\160\164\x69\155\x69\x7a\141\164\x69\x6f\x6e\137\142\165\146\x66\x65\162"), $nsmgceoqaqogqmuw); } }
+ namespace Pmpr\Common\Cover\Optimization; class Buffer extends Common { public function wigskegsqequoeks() { $this->qcsmikeggeemccuu("\164\x65\155\160\x6c\141\164\x65\137\162\145\x64\x69\x72\x65\x63\x74", [$this, "\x73\x75\x79\x61\167\171\x63\151\x75\145\143\x65\x67\x67\x61\141"]); } public function suyawyciueceggaa() { if (!$this->macyowwkykkuosce()) { goto ooeausyowguqicuo; } ob_start([$this, "\171\165\x61\x65\x71\155\x6d\x65\157\147\x6f\x77\157\x61\145\155"]); ooeausyowguqicuo: } public function yuaeqmmeogowoaem($nsmgceoqaqogqmuw) { return $this->sscegwueamckwmcy($this->ygyygikyocoymgaw("\157\x70\164\151\x6d\151\172\141\x74\x69\157\x6e\137\142\165\x66\x66\145\162"), $nsmgceoqaqogqmuw); } }
