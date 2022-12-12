@@ -1,1 +1,0 @@
-PMPRInlineUtil.advancedObserver(".pr-icon",(function(e){let t=e.getAttribute("data-src");PMPRInlineUtil.isEmpty(t)||PMPRInlineUtil.httpRequest({url:t,success:t=>{let n=PMPRInlineUtil.createElement(t);PMPRInlineUtil.animateAppend(e,n),PMPRInlineUtil.addClass(e,"icon-loaded"),e.removeAttribute("data-src")},error:e=>{console.log("Error on loading icon: ",e)}})}));
