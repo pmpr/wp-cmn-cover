@@ -412,7 +412,7 @@ msgstr "پیوند"
 msgid ""
 "If you set a markup for this license, this image replace with that image."
 msgstr ""
-"اگر مارکاپی برای این گواهی تنظیم کرده باشدی، این تصویر جایگزین تصویر مارکاپ "
+"اگر مارکاپی برای این گواهی تنظیم کرده باشید، این تصویر جایگزین تصویر مارکاپ "
 "خواهد شد."
 
 #: src/Pmpr/Common/Cover/Setting.php:345
