@@ -1,9 +1,10 @@
 {
-  "icon.js": "/js/icon.YvGsmJ0nd.js",
-  "aside.js": "/js/aside.YvGsmJ0nd.js",
-  "cart.js": "/js/cart.YvGsmJ0nd.js",
-  "delay.js": "/js/delay.YvGsmJ0nd.js",
-  "lazyload.js": "/js/lazyload.YvGsmJ0nd.js",
-  "analytics.js": "/js/analytics.YvGsmJ0nd.js",
-  "table.js": "/js/table.YvGsmJ0nd.js"
+  "icon.js": "/js/icon.O8Pjv-E3t.js",
+  "aside.js": "/js/aside.O8Pjv-E3t.js",
+  "cart.js": "/js/cart.O8Pjv-E3t.js",
+  "delay.js": "/js/delay.O8Pjv-E3t.js",
+  "lazyload.js": "/js/lazyload.O8Pjv-E3t.js",
+  "quantity.js": "/js/quantity.O8Pjv-E3t.js",
+  "analytics.js": "/js/analytics.O8Pjv-E3t.js",
+  "table.js": "/js/table.O8Pjv-E3t.js"
 }
