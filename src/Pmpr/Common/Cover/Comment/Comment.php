@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             643fe50a48621             |
+    |             644166f9be52f             |
     |_______________________________________|
 */
- namespace Pmpr\Common\Cover\Comment; use Pmpr\Common\Foundation\Manipulate\ManipulateAjax; use Pmpr\Common\Foundation\Manipulate\ManipulateQuery; class Comment extends Common { public function __construct() { $this->iemaakgqgqosiecm(); parent::__construct(); } public function wigskegsqequoeks() { $this->qcsmikeggeemccuu("\x69\x6e\151\x74", [$this, "\151\156\151\x74"]); } public function init() { SettingSection::symcgieuakksimmu(); } public function iemaakgqgqosiecm() { if (ManipulateAjax::mcgoysmkqsqooceq()) { goto yseyyukqaowwouua; } if (ManipulateQuery::euqowsuwmgokuqqo()) { goto qcgyggiaowuqswuw; } Form::symcgieuakksimmu(); Frontend::symcgieuakksimmu(); goto casgoamcqkekgeeo; yseyyukqaowwouua: Ajax::symcgieuakksimmu(); goto casgoamcqkekgeeo; qcgyggiaowuqswuw: Backend::symcgieuakksimmu(); casgoamcqkekgeeo: } }
+ namespace Pmpr\Common\Cover\Comment; use Pmpr\Common\Foundation\Manipulate\ManipulateAjax; use Pmpr\Common\Foundation\Manipulate\ManipulateQuery; class Comment extends Common { public function __construct() { $this->iemaakgqgqosiecm(); parent::__construct(); } public function wigskegsqequoeks() { $this->qcsmikeggeemccuu("\141\144\x6d\151\156\x5f\151\x6e\151\x74", [$this, "\171\x65\171\x69\x67\x75\171\x65\x67\x6d\155\171\x75\163\145\x61"]); } public function yeyiguyegmmyusea() { SettingSection::symcgieuakksimmu(); } public function iemaakgqgqosiecm() { if (ManipulateAjax::mcgoysmkqsqooceq()) { goto qiaaqkymeuuueoqk; } if (ManipulateQuery::euqowsuwmgokuqqo()) { goto ugswokwmkumcmigc; } Form::symcgieuakksimmu(); Frontend::symcgieuakksimmu(); goto asaowisseacciyia; qiaaqkymeuuueoqk: Ajax::symcgieuakksimmu(); goto asaowisseacciyia; ugswokwmkumcmigc: Backend::symcgieuakksimmu(); asaowisseacciyia: } }
