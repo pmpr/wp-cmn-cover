@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pmpr Cover Foundation\n"
 "Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
-"POT-Creation-Date: 2023-04-23 08:24+0330\n"
+"POT-Creation-Date: 2023-04-23 16:24+0330\n"
 "PO-Revision-Date: \n"
 "Last-Translator: pmpr.dev <pmpr.dev@gmail.com>\n"
 "Language-Team: Your Team <translations@example.com>\n"
@@ -205,7 +205,6 @@ msgid "%1$s %2$s"
 msgstr ""
 
 #: src/Pmpr/Common/Cover/Editor.php:51
-#: src/Pmpr/Common/Cover/Search/SettingSegment.php:136
 msgid "None"
 msgstr "هیچکدام"
 
@@ -231,7 +230,8 @@ msgid "Items"
 msgstr "آیتم‌ها‌"
 
 #: src/Pmpr/Common/Cover/Logo/SettingSection.php:29
-#: src/Pmpr/Common/Cover/Search/SettingSegment.php:50
+#: src/Pmpr/Common/Cover/Search/SettingSegment.php:55
+#: src/Pmpr/Common/Cover/Search/SettingSegment.php:61
 #: src/Pmpr/Common/Cover/Setting.php:168 src/Pmpr/Common/Cover/Setting.php:249
 #: src/Pmpr/Common/Cover/Setting.php:364
 #: src/Pmpr/Common/Cover/Widget/Post.php:36
@@ -340,121 +340,154 @@ msgstr "قبلی"
 msgid "Current"
 msgstr "جاری"
 
-#: src/Pmpr/Common/Cover/Search/Frontend.php:105
-#: src/Pmpr/Common/Cover/Search/SettingSegment.php:76
-#: src/Pmpr/Common/Cover/Search/SettingSegment.php:129
-#: src/Pmpr/Common/Cover/Search/SettingSegment.php:159
+#: src/Pmpr/Common/Cover/Search/Frontend.php:114
+#: src/Pmpr/Common/Cover/Search/SettingSegment.php:83
+#: src/Pmpr/Common/Cover/Search/SettingSegment.php:97
 #: src/Pmpr/Common/Cover/Widget/Post.php:28
 msgid "Posts"
 msgstr "نوشته‌ها"
 
-#: src/Pmpr/Common/Cover/Search/Frontend.php:106
-#: src/Pmpr/Common/Cover/Search/SettingSegment.php:110
-#: src/Pmpr/Common/Cover/Search/SettingSegment.php:141
-#: src/Pmpr/Common/Cover/Search/SettingSegment.php:147
-#: src/Pmpr/Common/Cover/Search/SettingSegment.php:164
+#: src/Pmpr/Common/Cover/Search/Frontend.php:115
+#: src/Pmpr/Common/Cover/Search/SettingSegment.php:88
+#: src/Pmpr/Common/Cover/Search/SettingSegment.php:161
+#: src/Pmpr/Common/Cover/Search/SettingSegment.php:168
 msgid "Terms"
 msgstr "ترم‌ها"
 
-#: src/Pmpr/Common/Cover/Search/Frontend.php:112
+#: src/Pmpr/Common/Cover/Search/Frontend.php:121
 msgid "Target"
 msgstr "هدف"
 
-#: src/Pmpr/Common/Cover/Search/SettingSegment.php:51
+#: src/Pmpr/Common/Cover/Search/SettingSegment.php:56
 msgid "Description"
 msgstr "شرح"
 
-#: src/Pmpr/Common/Cover/Search/SettingSegment.php:52
-#: src/Pmpr/Common/Cover/Search/SettingSegment.php:155
+#: src/Pmpr/Common/Cover/Search/SettingSegment.php:57
+#: src/Pmpr/Common/Cover/Search/SettingSegment.php:63
 msgid "Both"
 msgstr "هر دو"
 
-#: src/Pmpr/Common/Cover/Search/SettingSegment.php:57
+#: src/Pmpr/Common/Cover/Search/SettingSegment.php:62
+msgid "Slug"
+msgstr "نامک"
+
+#: src/Pmpr/Common/Cover/Search/SettingSegment.php:68
 #: src/Pmpr/Common/Cover/Widget/Search.php:25
 msgid "Advanced Search"
-msgstr "جتسجوی پیشرفته"
+msgstr "جستجوی پیشرفته"
 
-#: src/Pmpr/Common/Cover/Search/SettingSegment.php:58
+#: src/Pmpr/Common/Cover/Search/SettingSegment.php:69
 msgid "Search Configuration"
 msgstr "پیکربندی جستجو"
 
-#: src/Pmpr/Common/Cover/Search/SettingSegment.php:62
+#: src/Pmpr/Common/Cover/Search/SettingSegment.php:73
 #: src/Pmpr/Common/Cover/Setting.php:160 src/Pmpr/Common/Cover/Setting.php:218
 #: src/Pmpr/Common/Cover/Setting.php:301
 msgid "General"
 msgstr "عمومی"
 
-#: src/Pmpr/Common/Cover/Search/SettingSegment.php:66
+#: src/Pmpr/Common/Cover/Search/SettingSegment.php:77
 msgid "Enable Advanced Search"
 msgstr "فعال سازی جستجوی پیشرفته"
 
-#: src/Pmpr/Common/Cover/Search/SettingSegment.php:67
+#: src/Pmpr/Common/Cover/Search/SettingSegment.php:78
 msgid "Check this option if you want enable advanced search functionality."
 msgstr ""
 "اگر می‌خواهید قابلیت جستجوی پیشرفته را فعال کنید، این گزینه را علامت بزنید."
 
-#: src/Pmpr/Common/Cover/Search/SettingSegment.php:72
+#: src/Pmpr/Common/Cover/Search/SettingSegment.php:82
+msgid "Display title for post types"
+msgstr "عنوان نمایشی برای نوع نوشته‌ها"
+
+#: src/Pmpr/Common/Cover/Search/SettingSegment.php:87
+msgid "Display title for taxonomies"
+msgstr "عنوان نمایشی برای تکسنومی‌ها"
+
+#: src/Pmpr/Common/Cover/Search/SettingSegment.php:93
 msgid "Search Query"
 msgstr "کوئری جستجو"
 
-#: src/Pmpr/Common/Cover/Search/SettingSegment.php:79
+#: src/Pmpr/Common/Cover/Search/SettingSegment.php:100
 msgid "Show posts in search result"
 msgstr "نمایش نوشته‌ها در نتیجه جستجو"
 
-#: src/Pmpr/Common/Cover/Search/SettingSegment.php:84
+#: src/Pmpr/Common/Cover/Search/SettingSegment.php:105
 msgid "Search in Posts"
 msgstr "جستجو در نوشته‌ها"
 
-#: src/Pmpr/Common/Cover/Search/SettingSegment.php:89
-#: src/Pmpr/Common/Cover/Search/SettingSegment.php:134
+#: src/Pmpr/Common/Cover/Search/SettingSegment.php:110
 msgid "Post Types"
 msgstr "نوع نوشته‌ها"
 
-#: src/Pmpr/Common/Cover/Search/SettingSegment.php:90
-#: src/Pmpr/Common/Cover/Search/SettingSegment.php:105
-#: src/Pmpr/Common/Cover/Search/SettingSegment.php:119
+#: src/Pmpr/Common/Cover/Search/SettingSegment.php:111
+#: src/Pmpr/Common/Cover/Search/SettingSegment.php:126
+#: src/Pmpr/Common/Cover/Search/SettingSegment.php:177
 msgid "Leave empty if you prefer to use all available items."
 msgstr "اگر ترجیح می دهید از همه موارد موجود استفاده کنید، خالی رها کنید."
 
-#: src/Pmpr/Common/Cover/Search/SettingSegment.php:94
+#: src/Pmpr/Common/Cover/Search/SettingSegment.php:115
+#: src/Pmpr/Common/Cover/Search/SettingSegment.php:130
+#: src/Pmpr/Common/Cover/Search/SettingSegment.php:181
 msgid "Target Field"
 msgstr "فیلد هدف"
 
-#: src/Pmpr/Common/Cover/Search/SettingSegment.php:99
+#: src/Pmpr/Common/Cover/Search/SettingSegment.php:120
 msgid "Search in Terms"
 msgstr "جستجو در ترم‌ها"
 
-#: src/Pmpr/Common/Cover/Search/SettingSegment.php:104
-#: src/Pmpr/Common/Cover/Search/SettingSegment.php:118
-#: src/Pmpr/Common/Cover/Search/SettingSegment.php:135
+#: src/Pmpr/Common/Cover/Search/SettingSegment.php:125
+#: src/Pmpr/Common/Cover/Search/SettingSegment.php:156
+#: src/Pmpr/Common/Cover/Search/SettingSegment.php:176
 #: src/Pmpr/Common/Cover/Widget/Taxonomy.php:35
 msgid "Taxonomies"
 msgstr "تکسونومی‌ها"
 
-#: src/Pmpr/Common/Cover/Search/SettingSegment.php:113
-msgid "Show terms in search result"
-msgstr "نمایش ترم‌ها در نتیجه جستجو"
+#: src/Pmpr/Common/Cover/Search/SettingSegment.php:135
+#: src/Pmpr/Common/Cover/Search/SettingSegment.php:186
+msgid "Search Scope"
+msgstr "محدوده جستجو"
 
-#: src/Pmpr/Common/Cover/Search/SettingSegment.php:125
-msgid "Frontend"
-msgstr "رابط کاربری"
+#: src/Pmpr/Common/Cover/Search/SettingSegment.php:136
+#: src/Pmpr/Common/Cover/Search/SettingSegment.php:187
+msgid ""
+"By setting the following options, you can give users the ability to filter "
+"the content they are searching for."
+msgstr ""
+"با تنظیم گزینه های زیر می توانید این امکان را به کاربران بدهید تا محتوای مورد "
+"جستجو را فیلتر کنند."
 
-#: src/Pmpr/Common/Cover/Search/SettingSegment.php:132
-#: src/Pmpr/Common/Cover/Search/SettingSegment.php:150
-msgid "Filterable By User"
-msgstr "قابل فیلتر توسط کاربر"
+#: src/Pmpr/Common/Cover/Search/SettingSegment.php:139
+#: src/Pmpr/Common/Cover/Search/SettingSegment.php:190
+msgid "Filter"
+msgstr "فیلتر"
 
 #: src/Pmpr/Common/Cover/Search/SettingSegment.php:142
+msgid "on Post Types"
+msgstr "روی نوع نوشته‌ها"
+
+#: src/Pmpr/Common/Cover/Search/SettingSegment.php:143
+#: src/Pmpr/Common/Cover/Search/SettingSegment.php:192
+msgid "on Taxonomies"
+msgstr "روی تکسونومی‌ها"
+
+#: src/Pmpr/Common/Cover/Search/SettingSegment.php:144
+#: src/Pmpr/Common/Cover/Search/SettingSegment.php:193
+msgid "Without Filter"
+msgstr "بدون فیلتر"
+
+#: src/Pmpr/Common/Cover/Search/SettingSegment.php:151
+msgid "Post types"
+msgstr "نوع نوشته‌ها"
+
+#: src/Pmpr/Common/Cover/Search/SettingSegment.php:152
+#: src/Pmpr/Common/Cover/Search/SettingSegment.php:157
+#: src/Pmpr/Common/Cover/Search/SettingSegment.php:162
 msgid "Leave empty if you want show all terms in dropdown."
 msgstr "اگر می‌خواهید همه ترم‌ها را به صورت کشویی نشان دهید، خالی رها کنید."
 
-#: src/Pmpr/Common/Cover/Search/SettingSegment.php:158
-msgid "Post Types Label"
-msgstr "عنوان نوع نوشته‌ها"
-
-#: src/Pmpr/Common/Cover/Search/SettingSegment.php:163
-msgid "Taxonomies Label"
-msgstr "عنوان تکسونومی‌ها"
+#: src/Pmpr/Common/Cover/Search/SettingSegment.php:171
+msgid "Show terms in search result"
+msgstr "نمایش ترم‌ها در نتیجه جستجو"
 
 #: src/Pmpr/Common/Cover/Setting.php:118
 #, php-format
@@ -816,11 +849,23 @@ msgstr "&laquo; قبلی"
 msgid "Next &raquo;"
 msgstr "بعدی &raquo;"
 
-#~ msgid "Content"
-#~ msgstr "محتوا"
+#~ msgid "Title & Slug"
+#~ msgstr "عنوان و نامک"
 
-#~ msgid "Post types"
-#~ msgstr "نوع نوشته‌ها"
+#~ msgid "All Content"
+#~ msgstr "همه محتوا"
+
+#~ msgid "Frontend"
+#~ msgstr "رابط کاربری"
+
+#~ msgid "Filterable By User"
+#~ msgstr "قابل فیلتر توسط کاربر"
+
+#~ msgid "Post Types Label"
+#~ msgstr "عنوان نوع نوشته‌ها"
+
+#~ msgid "Taxonomies Label"
+#~ msgstr "عنوان تکسونومی‌ها"
 
 #, fuzzy
 #~| msgid "Target Roles"
