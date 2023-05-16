@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pmpr Cover Foundation\n"
 "Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
-"POT-Creation-Date: 2023-04-23 16:24+0330\n"
+"POT-Creation-Date: 2023-05-15 16:40+0330\n"
 "PO-Revision-Date: \n"
 "Last-Translator: pmpr.dev <pmpr.dev@gmail.com>\n"
 "Language-Team: Your Team <translations@example.com>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;_n:1,2;"
 "_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
 "X-Poedit-Basepath: ..\n"
-"X-Generator: Poedit 3.2.2\n"
+"X-Generator: Poedit 3.3\n"
 "X-Poedit-SearchPathExcluded-2: vendor\n"
 "X-Poedit-SearchPathExcluded-3: asset\n"
 "X-Poedit-SearchPathExcluded-4: build\n"
@@ -198,7 +198,7 @@ msgstr "آواتار جایگزین"
 msgid "Common Cover"
 msgstr "کاور مشترک"
 
-#: src/Pmpr/Common/Cover/Cover.php:180
+#: src/Pmpr/Common/Cover/Cover.php:213
 #, php-format
 msgctxt "archive title"
 msgid "%1$s %2$s"
@@ -225,15 +225,15 @@ msgid "Logo"
 msgstr "لوگو"
 
 #: src/Pmpr/Common/Cover/Logo/SettingSection.php:26
-#: src/Pmpr/Common/Cover/Setting.php:246 src/Pmpr/Common/Cover/Setting.php:360
+#: src/Pmpr/Common/Cover/Setting.php:247 src/Pmpr/Common/Cover/Setting.php:381
 msgid "Items"
 msgstr "آیتم‌ها‌"
 
 #: src/Pmpr/Common/Cover/Logo/SettingSection.php:29
 #: src/Pmpr/Common/Cover/Search/SettingSegment.php:55
 #: src/Pmpr/Common/Cover/Search/SettingSegment.php:61
-#: src/Pmpr/Common/Cover/Setting.php:168 src/Pmpr/Common/Cover/Setting.php:249
-#: src/Pmpr/Common/Cover/Setting.php:364
+#: src/Pmpr/Common/Cover/Setting.php:169 src/Pmpr/Common/Cover/Setting.php:250
+#: src/Pmpr/Common/Cover/Setting.php:385
 #: src/Pmpr/Common/Cover/Widget/Post.php:36
 #: src/Pmpr/Common/Cover/Widget/Search.php:35
 #: src/Pmpr/Common/Cover/Widget/Taxonomy.php:45
@@ -272,8 +272,8 @@ msgid "Type"
 msgstr "نوع"
 
 #: src/Pmpr/Common/Cover/Logo/SettingSection.php:45
-#: src/Pmpr/Common/Cover/Setting.php:163 src/Pmpr/Common/Cover/Setting.php:257
-#: src/Pmpr/Common/Cover/Setting.php:375
+#: src/Pmpr/Common/Cover/Setting.php:164 src/Pmpr/Common/Cover/Setting.php:273
+#: src/Pmpr/Common/Cover/Setting.php:396
 msgid "Image"
 msgstr "تصویر"
 
@@ -296,33 +296,37 @@ msgstr ""
 "ابعاد تصویر انتخابی شما مناسب‌ نیست. حداقل ابعاد برای %s باید %s در %s باشد. "
 "در حالی که تصویر انتخابی شما %s در %s است"
 
+#: src/Pmpr/Common/Cover/Navigation/Navigation.php:127
+msgid "Icon"
+msgstr "آیکون"
+
 #: src/Pmpr/Common/Cover/Optimization/SettingSection.php:23
-#: src/Pmpr/Common/Cover/Setting.php:330
+#: src/Pmpr/Common/Cover/Setting.php:351
 msgid "Optimization"
 msgstr "افزایش سرعت"
 
 #: src/Pmpr/Common/Cover/Optimization/SettingSection.php:28
-#: src/Pmpr/Common/Cover/Setting.php:334
+#: src/Pmpr/Common/Cover/Setting.php:355
 msgid "Disable Lazy Load"
 msgstr "غیرفعال کردن لیزی لود تصاویر"
 
 #: src/Pmpr/Common/Cover/Optimization/SettingSection.php:32
-#: src/Pmpr/Common/Cover/Setting.php:339
+#: src/Pmpr/Common/Cover/Setting.php:360
 msgid "Disable Delayed Scripts"
 msgstr "عدم تاخیر در دریافت اسکریپت"
 
 #: src/Pmpr/Common/Cover/Optimization/SettingSection.php:36
-#: src/Pmpr/Common/Cover/Setting.php:344
+#: src/Pmpr/Common/Cover/Setting.php:365
 msgid "Disable Cleanup"
 msgstr "غیر فعال کردن تمیزکاری خودکار"
 
 #: src/Pmpr/Common/Cover/Optimization/SettingSection.php:40
-#: src/Pmpr/Common/Cover/Setting.php:349
+#: src/Pmpr/Common/Cover/Setting.php:370
 msgid "Exclude Optimization"
 msgstr "استثنائات افزایش سرعت"
 
 #: src/Pmpr/Common/Cover/Optimization/SettingSection.php:41
-#: src/Pmpr/Common/Cover/Setting.php:350
+#: src/Pmpr/Common/Cover/Setting.php:371
 msgid "Choice posts from post type that you want to ignore from optimization"
 msgstr "صفحاتی که افزایش سرعت به آنها اعمال نمی‌شود"
 
@@ -340,21 +344,21 @@ msgstr "قبلی"
 msgid "Current"
 msgstr "جاری"
 
-#: src/Pmpr/Common/Cover/Search/Frontend.php:114
+#: src/Pmpr/Common/Cover/Search/Frontend.php:118
 #: src/Pmpr/Common/Cover/Search/SettingSegment.php:83
 #: src/Pmpr/Common/Cover/Search/SettingSegment.php:97
 #: src/Pmpr/Common/Cover/Widget/Post.php:28
 msgid "Posts"
 msgstr "نوشته‌ها"
 
-#: src/Pmpr/Common/Cover/Search/Frontend.php:115
+#: src/Pmpr/Common/Cover/Search/Frontend.php:119
 #: src/Pmpr/Common/Cover/Search/SettingSegment.php:88
 #: src/Pmpr/Common/Cover/Search/SettingSegment.php:161
 #: src/Pmpr/Common/Cover/Search/SettingSegment.php:168
 msgid "Terms"
 msgstr "ترم‌ها"
 
-#: src/Pmpr/Common/Cover/Search/Frontend.php:121
+#: src/Pmpr/Common/Cover/Search/Frontend.php:125
 msgid "Target"
 msgstr "هدف"
 
@@ -381,8 +385,8 @@ msgid "Search Configuration"
 msgstr "پیکربندی جستجو"
 
 #: src/Pmpr/Common/Cover/Search/SettingSegment.php:73
-#: src/Pmpr/Common/Cover/Setting.php:160 src/Pmpr/Common/Cover/Setting.php:218
-#: src/Pmpr/Common/Cover/Setting.php:301
+#: src/Pmpr/Common/Cover/Setting.php:161 src/Pmpr/Common/Cover/Setting.php:219
+#: src/Pmpr/Common/Cover/Setting.php:322
 msgid "General"
 msgstr "عمومی"
 
@@ -461,16 +465,16 @@ msgstr ""
 msgid "Filter"
 msgstr "فیلتر"
 
-#: src/Pmpr/Common/Cover/Search/SettingSegment.php:142
+#: src/Pmpr/Common/Cover/Search/SettingSegment.php:141
 msgid "on Post Types"
 msgstr "روی نوع نوشته‌ها"
 
-#: src/Pmpr/Common/Cover/Search/SettingSegment.php:143
+#: src/Pmpr/Common/Cover/Search/SettingSegment.php:142
 #: src/Pmpr/Common/Cover/Search/SettingSegment.php:192
 msgid "on Taxonomies"
 msgstr "روی تکسونومی‌ها"
 
-#: src/Pmpr/Common/Cover/Search/SettingSegment.php:144
+#: src/Pmpr/Common/Cover/Search/SettingSegment.php:143
 #: src/Pmpr/Common/Cover/Search/SettingSegment.php:193
 msgid "Without Filter"
 msgstr "بدون فیلتر"
@@ -489,166 +493,188 @@ msgstr "اگر می‌خواهید همه ترم‌ها را به صورت کش�
 msgid "Show terms in search result"
 msgstr "نمایش ترم‌ها در نتیجه جستجو"
 
-#: src/Pmpr/Common/Cover/Setting.php:118
+#: src/Pmpr/Common/Cover/Setting.php:119
 #, php-format
 msgid "%s Config"
 msgstr "پیکربندی %s"
 
-#: src/Pmpr/Common/Cover/Setting.php:121
+#: src/Pmpr/Common/Cover/Setting.php:122
 #, php-format
 msgid "%s archive title"
 msgstr "عنوان آرشیو %s"
 
-#: src/Pmpr/Common/Cover/Setting.php:125
+#: src/Pmpr/Common/Cover/Setting.php:126
 msgid "Display Description"
 msgstr "نمایش شرح"
 
-#: src/Pmpr/Common/Cover/Setting.php:130
+#: src/Pmpr/Common/Cover/Setting.php:131
 #, php-format
 msgid "%s archive description"
 msgstr "شرح آرشیو %s"
 
-#: src/Pmpr/Common/Cover/Setting.php:139
+#: src/Pmpr/Common/Cover/Setting.php:140
 #: src/Pmpr/Common/Cover/Widget/Post.php:58
 #: src/Pmpr/Common/Cover/Widget/Search.php:43
 msgid "Post Type"
 msgstr "نوع نوشته"
 
-#: src/Pmpr/Common/Cover/Setting.php:147
+#: src/Pmpr/Common/Cover/Setting.php:148
 msgid "Post Type & Taxonomy"
 msgstr "نوع نوشته و تکسونومی"
 
-#: src/Pmpr/Common/Cover/Setting.php:148
+#: src/Pmpr/Common/Cover/Setting.php:149
 msgid "Archive Configurations"
 msgstr "پیکربندی آرشیو‌ها"
 
-#: src/Pmpr/Common/Cover/Setting.php:156
+#: src/Pmpr/Common/Cover/Setting.php:157
 msgid "404 Page"
 msgstr "صفحه 404"
 
-#: src/Pmpr/Common/Cover/Setting.php:157
+#: src/Pmpr/Common/Cover/Setting.php:158
 msgid "Layout & Configuration"
 msgstr "چینش و پیکربندی"
 
-#: src/Pmpr/Common/Cover/Setting.php:169
+#: src/Pmpr/Common/Cover/Setting.php:170
 msgid "Page Not Found"
 msgstr "صفحه مورد درخواست پیدا نشد"
 
-#: src/Pmpr/Common/Cover/Setting.php:173
+#: src/Pmpr/Common/Cover/Setting.php:174
+#: src/Pmpr/Common/Cover/Widget/Link.php:27
 #: src/Pmpr/Common/Cover/Widget/Title.php:26
 msgid "Text"
 msgstr "متن"
 
-#: src/Pmpr/Common/Cover/Setting.php:174
+#: src/Pmpr/Common/Cover/Setting.php:175
 msgid "The link you clicked may be broken or the page may have been removed."
 msgstr "لینکی که روی آن کلیک کردید ممکن است خراب باشد یا صفحه حذف شده باشد."
 
-#: src/Pmpr/Common/Cover/Setting.php:178
+#: src/Pmpr/Common/Cover/Setting.php:179
 msgid "Disable Search Box"
 msgstr "غیر فعال کردن باکس جستجو"
 
-#: src/Pmpr/Common/Cover/Setting.php:182
+#: src/Pmpr/Common/Cover/Setting.php:183
 msgid "Action URL"
 msgstr "لینک دکمه"
 
-#: src/Pmpr/Common/Cover/Setting.php:187
+#: src/Pmpr/Common/Cover/Setting.php:188
 msgid "Action Text"
 msgstr "عنوان دکمه"
 
-#: src/Pmpr/Common/Cover/Setting.php:188
+#: src/Pmpr/Common/Cover/Setting.php:189
 msgid "Leave empty if you want show page title."
 msgstr "اگر می‌خواهید عنوان صفحه مورد نظر نمایش داده شود، چیزی ننویسید."
 
-#: src/Pmpr/Common/Cover/Setting.php:189
+#: src/Pmpr/Common/Cover/Setting.php:190
 msgid "Back To Home Page"
 msgstr "بازگشت به خانه"
 
-#: src/Pmpr/Common/Cover/Setting.php:193
+#: src/Pmpr/Common/Cover/Setting.php:194
 msgid "Action Icon"
 msgstr "آیکون دکمه"
 
-#: src/Pmpr/Common/Cover/Setting.php:223 src/Pmpr/Common/Cover/Setting.php:307
+#: src/Pmpr/Common/Cover/Setting.php:224 src/Pmpr/Common/Cover/Setting.php:328
 msgid "Icon Set"
 msgstr "مجموعه آیکون"
 
-#: src/Pmpr/Common/Cover/Setting.php:224 src/Pmpr/Common/Cover/Setting.php:308
+#: src/Pmpr/Common/Cover/Setting.php:225 src/Pmpr/Common/Cover/Setting.php:329
 msgid "You can change icon set of frontend by changing this option"
 msgstr ""
 "با استفاده از این گزینه می‌توانید مجموعه آیکون استفاده شده در بخش نمایشی سایت "
 "را تغییر دهید"
 
-#: src/Pmpr/Common/Cover/Setting.php:228 src/Pmpr/Common/Cover/Setting.php:312
+#: src/Pmpr/Common/Cover/Setting.php:229 src/Pmpr/Common/Cover/Setting.php:333
 msgid "Disable Admin Bar"
 msgstr "عدم نمایش ادمین بار"
 
-#: src/Pmpr/Common/Cover/Setting.php:232 src/Pmpr/Common/Cover/Setting.php:317
+#: src/Pmpr/Common/Cover/Setting.php:233 src/Pmpr/Common/Cover/Setting.php:338
 msgid "Image Placeholder"
 msgstr "تصویر پیشفرض"
 
-#: src/Pmpr/Common/Cover/Setting.php:233 src/Pmpr/Common/Cover/Setting.php:318
+#: src/Pmpr/Common/Cover/Setting.php:234 src/Pmpr/Common/Cover/Setting.php:339
 msgid "Default image for all post types."
 msgstr "تصویر پیشفرض برای همه نوع نوشته‌ها."
 
-#: src/Pmpr/Common/Cover/Setting.php:237 src/Pmpr/Common/Cover/Setting.php:323
+#: src/Pmpr/Common/Cover/Setting.php:238 src/Pmpr/Common/Cover/Setting.php:344
 msgid "Google Analytics"
 msgstr "تگ گوگل آنالیتیکس"
 
-#: src/Pmpr/Common/Cover/Setting.php:242 src/Pmpr/Common/Cover/Setting.php:356
+#: src/Pmpr/Common/Cover/Setting.php:243 src/Pmpr/Common/Cover/Setting.php:377
 msgid "Licenses"
 msgstr "گواهی‌ها"
 
-#: src/Pmpr/Common/Cover/Setting.php:250 src/Pmpr/Common/Cover/Setting.php:365
+#: src/Pmpr/Common/Cover/Setting.php:251 src/Pmpr/Common/Cover/Setting.php:386
 msgid "Title of license to show on admin"
 msgstr "عنوان گواهی برای نمایش در بخش مدیریت"
 
-#: src/Pmpr/Common/Cover/Setting.php:254 src/Pmpr/Common/Cover/Setting.php:370
+#: src/Pmpr/Common/Cover/Setting.php:255
+msgid "Display Method"
+msgstr "نوع نمایش"
+
+#: src/Pmpr/Common/Cover/Setting.php:256
+msgid "By Markup"
+msgstr "با مارکاپ"
+
+#: src/Pmpr/Common/Cover/Setting.php:257
+msgid "By Link & Image"
+msgstr "با پیوند و تصویر"
+
+#: src/Pmpr/Common/Cover/Setting.php:264 src/Pmpr/Common/Cover/Setting.php:391
+#: src/Pmpr/Common/Cover/Widget/Link.php:17
 msgid "Link"
 msgstr "پیوند"
 
-#: src/Pmpr/Common/Cover/Setting.php:258 src/Pmpr/Common/Cover/Setting.php:376
+#: src/Pmpr/Common/Cover/Setting.php:268
+msgid "Rel"
+msgstr "ویژگی rel"
+
+#: src/Pmpr/Common/Cover/Setting.php:278 src/Pmpr/Common/Cover/Setting.php:418
+msgid "Markup"
+msgstr "مارکاپ"
+
+#: src/Pmpr/Common/Cover/Setting.php:279 src/Pmpr/Common/Cover/Setting.php:419
+msgid "If you have a html markup of your license, put here to show it."
+msgstr "اگر برای گواهی‌تان مارکاپ HTML دارید، آن را در این بخش قرار دهید."
+
+#: src/Pmpr/Common/Cover/Setting.php:283
+msgid "Markup Image"
+msgstr "تصویر مارکاپ"
+
+#: src/Pmpr/Common/Cover/Setting.php:288 src/Pmpr/Common/Cover/Setting.php:402
+msgid "Image Size"
+msgstr "اندازه تصویر"
+
+#: src/Pmpr/Common/Cover/Setting.php:294 src/Pmpr/Common/Cover/Setting.php:408
+msgid "Image Width"
+msgstr "عرض تصویر"
+
+#: src/Pmpr/Common/Cover/Setting.php:299 src/Pmpr/Common/Cover/Setting.php:413
+msgid "Image Height"
+msgstr "ارتفاع تصویر"
+
+#: src/Pmpr/Common/Cover/Setting.php:397
 msgid ""
 "If you set a markup for this license, this image replace with that image."
 msgstr ""
 "اگر مارکاپی برای این گواهی تنظیم کرده باشید، این تصویر جایگزین تصویر مارکاپ "
 "خواهد شد."
 
-#: src/Pmpr/Common/Cover/Setting.php:262 src/Pmpr/Common/Cover/Setting.php:381
-msgid "Image Size"
-msgstr "اندازه تصویر"
-
-#: src/Pmpr/Common/Cover/Setting.php:268 src/Pmpr/Common/Cover/Setting.php:387
-msgid "Image Width"
-msgstr "عرض تصویر"
-
-#: src/Pmpr/Common/Cover/Setting.php:273 src/Pmpr/Common/Cover/Setting.php:392
-msgid "Image Height"
-msgstr "ارتفاع تصویر"
-
-#: src/Pmpr/Common/Cover/Setting.php:278 src/Pmpr/Common/Cover/Setting.php:397
-msgid "Markup"
-msgstr "مارکاپ"
-
-#: src/Pmpr/Common/Cover/Setting.php:279 src/Pmpr/Common/Cover/Setting.php:398
-msgid "If you have a html markup of your license, put here to show it."
-msgstr "اگر برای گواهی‌تان مارکاپ HTML دارید، آن را در این بخش قرار دهید."
-
-#: src/Pmpr/Common/Cover/Setting.php:418
+#: src/Pmpr/Common/Cover/Setting.php:439
 msgid "Light"
 msgstr "لایت"
 
-#: src/Pmpr/Common/Cover/Setting.php:419
+#: src/Pmpr/Common/Cover/Setting.php:440
 msgid "Duotone"
 msgstr "دوتن"
 
-#: src/Pmpr/Common/Cover/Setting.php:420
+#: src/Pmpr/Common/Cover/Setting.php:441
 msgid "Regular"
 msgstr "عادی"
 
-#: src/Pmpr/Common/Cover/Setting.php:421
+#: src/Pmpr/Common/Cover/Setting.php:442
 msgid "Solid"
 msgstr "توپر"
 
-#: src/Pmpr/Common/Cover/Setting.php:422
+#: src/Pmpr/Common/Cover/Setting.php:443
 msgid "Thin"
 msgstr "لاغر"
 
@@ -727,6 +753,26 @@ msgstr "شامل"
 #: src/Pmpr/Common/Cover/Widget/License.php:29
 msgid "Leave empty if you want to show all items"
 msgstr "اگر می‌خواهید تمام آیتم‌ها نمایش داده شود، خالی رها کنید"
+
+#: src/Pmpr/Common/Cover/Widget/Link.php:18
+msgid "Display a link."
+msgstr "نمایش یک پیوند."
+
+#: src/Pmpr/Common/Cover/Widget/Link.php:31
+msgid "Post/Page"
+msgstr "نوشته/صفحه"
+
+#: src/Pmpr/Common/Cover/Widget/Link.php:36
+msgid "As Button"
+msgstr "به صورت دکمه"
+
+#: src/Pmpr/Common/Cover/Widget/Link.php:41
+msgid "Size"
+msgstr "اندازه"
+
+#: src/Pmpr/Common/Cover/Widget/Link.php:46
+msgid "Color"
+msgstr "رنگ"
 
 #: src/Pmpr/Common/Cover/Widget/Post.php:28
 msgid "Display the posts."
@@ -966,9 +1012,6 @@ msgstr "بعدی &raquo;"
 
 #~ msgid "APIs"
 #~ msgstr "وب سرویس‌ها"
-
-#~ msgid "Display the page links."
-#~ msgstr "نمایش پیوند صفحات."
 
 #~ msgid "Include Page Links"
 #~ msgstr "شامل پیوند صفحات"

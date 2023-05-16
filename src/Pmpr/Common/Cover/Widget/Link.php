@@ -1,0 +1,7 @@
+<?php
+/*   _______________________________________
+    |  Obfuscated by PMPR - Php Obfuscator  |
+    |             6463abdcad77e             |
+    |_______________________________________|
+*/
+ namespace Pmpr\Common\Cover\Widget; class Link extends Common { public function __construct() { parent::__construct(__("\114\x69\156\153", PR__CMN__COVER), __("\104\x69\x73\x70\154\141\171\x20\x61\40\154\151\156\x6b\56", PR__CMN__COVER)); } public function ykwqaukkycogooii() { $this->mkksewyosgeumwsa(self::ymuegqgyuagyucws(self::TEXT)->gswweykyogmsyawy(__("\x54\x65\x78\164", PR__CMN__COVER)))->mkksewyosgeumwsa(self::mccagaqeagiikkec(self::mswoacegomcucaik)->gswweykyogmsyawy(__("\x50\x6f\163\164\x2f\120\141\147\145", PR__CMN__COVER))->ukqywcsoogkyoaoa())->mkksewyosgeumwsa(self::wcwmusaouiqaqeww(self::wscuyecqcuigkuyq)->gswweykyogmsyawy(__("\101\163\40\x42\x75\x74\x74\157\156", PR__CMN__COVER))->agywyaaquwawwuiy([self::waguuiqqgsysuukq, self::igssuqwuicwawgam]))->mkksewyosgeumwsa(self::mccagaqeagiikkec(self::waguuiqqgsysuukq)->gswweykyogmsyawy(__("\123\x69\172\x65", PR__CMN__COVER))->acauweqyyugwisqc($this->ocksiywmkyaqseou("\164\x68\145\155\145\137\142\x75\164\x74\157\x6e\x5f\163\x69\172\x65\x73", [])))->mkksewyosgeumwsa(self::mccagaqeagiikkec(self::igssuqwuicwawgam)->gswweykyogmsyawy(__("\x43\157\154\x6f\162", PR__CMN__COVER))->acauweqyyugwisqc($this->ocksiywmkyaqseou("\164\150\x65\x6d\x65\x5f\143\x6f\x6c\x6f\x72\163", []))); } }
