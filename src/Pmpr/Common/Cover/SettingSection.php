@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             64690d447e1ff             |
+    |             6469119484a8e             |
     |_______________________________________|
 */
  namespace Pmpr\Common\Cover; use Pmpr\Common\Foundation\FormGenerator\Backend\Setting\Section; class SettingSection extends Section { protected string $segment = self::ioomakeyqiqowgmk; public function __construct() { $this->setting = Setting::symcgieuakksimmu()->youaqkimaoecgsye(); parent::__construct(); } }
