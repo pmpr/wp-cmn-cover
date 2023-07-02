@@ -1,2 +1,2 @@
-/*! For license information please see analytics.arUs8R3nV.js.LICENSE.txt */
+/*! For license information please see analytics.Y-l-bFgAU.js.LICENSE.txt */
 window.addEventListener("DOMContentLoaded",(function(){function a(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],a("js",new Date),a("config","{ analytics_id }")}));

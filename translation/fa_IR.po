@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pmpr Cover Foundation\n"
 "Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
-"POT-Creation-Date: 2023-05-15 16:40+0330\n"
+"POT-Creation-Date: 2023-07-02 10:13+0330\n"
 "PO-Revision-Date: \n"
 "Last-Translator: pmpr.dev <pmpr.dev@gmail.com>\n"
 "Language-Team: Your Team <translations@example.com>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;_n:1,2;"
 "_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
 "X-Poedit-Basepath: ..\n"
-"X-Generator: Poedit 3.3\n"
+"X-Generator: Poedit 3.3.2\n"
 "X-Poedit-SearchPathExcluded-2: vendor\n"
 "X-Poedit-SearchPathExcluded-3: asset\n"
 "X-Poedit-SearchPathExcluded-4: build\n"
@@ -65,70 +65,70 @@ msgstr "نمایش بردکرامب"
 msgid "Exclude Posts"
 msgstr "نوشته‌های مستثنی"
 
-#: src/Pmpr/Common/Cover/Comment/Ajax.php:41
+#: src/Pmpr/Common/Cover/Comment/Ajax.php:42
 msgid "Unknown Error"
 msgstr "خطای ناشناخته"
 
-#: src/Pmpr/Common/Cover/Comment/Ajax.php:54
+#: src/Pmpr/Common/Cover/Comment/Ajax.php:55
 msgid "Something is wrong, please try again."
 msgstr "اشکالی در فرایند عملیات رخ داده است، لطفا دوباره امتحان کنید."
 
-#: src/Pmpr/Common/Cover/Comment/Ajax.php:108
+#: src/Pmpr/Common/Cover/Comment/Ajax.php:109
 msgid "Server Error"
 msgstr "خطای سرور"
 
-#: src/Pmpr/Common/Cover/Comment/Ajax.php:112
+#: src/Pmpr/Common/Cover/Comment/Ajax.php:113
 msgid "Required data not passed"
 msgstr "داده‌های الزامی ارسال نشد‌اند"
 
-#: src/Pmpr/Common/Cover/Comment/Backend.php:27
+#: src/Pmpr/Common/Cover/Comment/Backend.php:25
 msgid "Comment Metadata"
 msgstr "متادیتای دیدگاه"
 
-#: src/Pmpr/Common/Cover/Comment/Backend.php:32
+#: src/Pmpr/Common/Cover/Comment/Backend.php:30
 msgid "User"
 msgstr "کاربر"
 
-#: src/Pmpr/Common/Cover/Comment/Form.php:56
+#: src/Pmpr/Common/Cover/Comment/Form.php:57
 msgid "Submit"
 msgstr "تایید"
 
-#: src/Pmpr/Common/Cover/Comment/Form.php:59
+#: src/Pmpr/Common/Cover/Comment/Form.php:60
 msgid "Cancel reply"
 msgstr "لغو پاسخ"
 
-#: src/Pmpr/Common/Cover/Comment/Form.php:162
+#: src/Pmpr/Common/Cover/Comment/Form.php:163
 msgid "Toggle Form"
 msgstr "نمایش فرم"
 
-#: src/Pmpr/Common/Cover/Comment/Form.php:177
+#: src/Pmpr/Common/Cover/Comment/Form.php:178
 #, php-format
 msgid "Dear %s, Your comment has been sent successfully."
 msgstr "%s گرامی، دیدگاه شما با موفقیت ثبت شد."
 
-#: src/Pmpr/Common/Cover/Comment/Frontend.php:56
+#: src/Pmpr/Common/Cover/Comment/Frontend.php:52
 msgid "Comment form and list"
 msgstr "فرم و لیست دیدگاه"
 
-#: src/Pmpr/Common/Cover/Comment/Frontend.php:117
+#: src/Pmpr/Common/Cover/Comment/Frontend.php:127
+msgid "Author Logo"
+msgstr "لوگو نویسنده"
+
+#: src/Pmpr/Common/Cover/Comment/Frontend.php:151
 #: src/Pmpr/Common/Cover/Comment/MetaBox.php:45
 #: src/Pmpr/Common/Cover/Comment/SettingSection.php:32
 msgid "Comment"
 msgstr "دیدگاه‌"
 
-#: src/Pmpr/Common/Cover/Comment/Frontend.php:122
+#: src/Pmpr/Common/Cover/Comment/Frontend.php:156
 msgid "There are no comments yet."
 msgstr "هنوز دیدگاهی وجود ندارد."
 
-#: src/Pmpr/Common/Cover/Comment/Frontend.php:124
+#: src/Pmpr/Common/Cover/Comment/Frontend.php:158
 msgid "Your comment is awaiting moderation."
 msgstr "دیدگاه شما پس از تایید نمایش داده خواهد شد."
 
-#: src/Pmpr/Common/Cover/Comment/Frontend.php:209
-msgid "Author Logo"
-msgstr "لوگو نویسنده"
-
-#: src/Pmpr/Common/Cover/Comment/Frontend.php:240
+#: src/Pmpr/Common/Cover/Comment/Frontend.php:250
 #, php-format
 msgid "%1$s at %2$s"
 msgstr "‏%1$s در %2$s"
@@ -197,12 +197,6 @@ msgstr "آواتار جایگزین"
 #: src/Pmpr/Common/Cover/Cover.php:29
 msgid "Common Cover"
 msgstr "کاور مشترک"
-
-#: src/Pmpr/Common/Cover/Cover.php:213
-#, php-format
-msgctxt "archive title"
-msgid "%1$s %2$s"
-msgstr ""
 
 #: src/Pmpr/Common/Cover/Editor.php:51
 msgid "None"
@@ -887,6 +881,58 @@ msgstr "تگ کلود"
 msgid "Display the title."
 msgstr "نمایش عنوان."
 
+#: src/Pmpr/Common/Cover/Woocommerce/Setting.php:31
+msgid "Show price short"
+msgstr "نمایش کوتاه‌تر قیمت"
+
+#: src/Pmpr/Common/Cover/Woocommerce/Setting.php:33
+msgid "Short Price"
+msgstr "کوتاه سازی قیمت"
+
+#: src/Pmpr/Common/Cover/Woocommerce/Setting.php:39
+msgid ""
+"This label show instead of 0 product's price, leave empty if you don't want "
+"this change"
+msgstr ""
+"این متن به جای مقدار ۰ قیمت محصولات نمایش داده خواهد شد، اگر این تغییر را "
+"نمی‌خواهید خالی رها کنید."
+
+#: src/Pmpr/Common/Cover/Woocommerce/Setting.php:41
+msgid "Free Price Label"
+msgstr "متن قیمت رایگان"
+
+#: src/Pmpr/Common/Cover/Woocommerce/Setting.php:56
+msgid "Shop items per page"
+msgstr "تعداد آیتم در هر صفحه فروشگاه"
+
+#: src/Pmpr/Common/Cover/Woocommerce/Setting.php:60
+msgid "Attributes tab title"
+msgstr "عنوان تب ویژگی‌ها"
+
+#: src/Pmpr/Common/Cover/Woocommerce/Setting.php:65
+msgid "Search"
+msgstr "جستجو"
+
+#: src/Pmpr/Common/Cover/Woocommerce/Setting.php:69
+msgid "Product Search"
+msgstr "جستجوی محصول"
+
+#: src/Pmpr/Common/Cover/Woocommerce/Setting.php:71
+msgid "Enable product simple search in backend area"
+msgstr "قعال سازی جستجوی ساده محصولات در بخش مدیریت سایت"
+
+#: src/Pmpr/Common/Cover/Woocommerce/Setting.php:89
+msgid "Nothing selected"
+msgstr "چیزی انتخاب نشده‌ است"
+
+#: src/Pmpr/Common/Cover/Woocommerce/Setting.php:94
+msgid "Exclude Nav Items"
+msgstr "آیتم‌های مستثنی حساب کاربری"
+
+#: src/Pmpr/Common/Cover/Woocommerce/Setting.php:97
+msgid "Select the items that you do not want to be displayed in navigation bar."
+msgstr "مواردی را انتخاب کنید که نمی خواهید در حساب کاربری نمایش داده شوند."
+
 #: src/Pmpr/Common/Cover/Woocommerce/Template.php:227
 msgid "&laquo; Previous"
 msgstr "&laquo; قبلی"
@@ -894,6 +940,18 @@ msgstr "&laquo; قبلی"
 #: src/Pmpr/Common/Cover/Woocommerce/Template.php:228
 msgid "Next &raquo;"
 msgstr "بعدی &raquo;"
+
+#: src/Pmpr/Common/Cover/Woocommerce/Woocommerce.php:186
+msgid "Thousands"
+msgstr "هزار"
+
+#: src/Pmpr/Common/Cover/Woocommerce/Woocommerce.php:187
+msgid "Millions"
+msgstr "میلیون"
+
+#: src/Pmpr/Common/Cover/Woocommerce/Woocommerce.php:188
+msgid "Billions"
+msgstr "میلیارد"
 
 #~ msgid "Title & Slug"
 #~ msgstr "عنوان و نامک"
@@ -918,9 +976,6 @@ msgstr "بعدی &raquo;"
 #~ msgid "Target Content"
 #~ msgstr "نقش‌های کاربری"
 
-#~ msgid "Search By"
-#~ msgstr "جستجو در"
-
 #~ msgid "Post Post Types"
 #~ msgstr "نوع نوشته‌ نوشته‌ها"
 
@@ -932,9 +987,6 @@ msgstr "بعدی &raquo;"
 
 #~ msgid "Search Result"
 #~ msgstr "نتیجه جستجو"
-
-#~ msgid "Advance Search"
-#~ msgstr "جتسجوی پیشرفته"
 
 #~ msgid "Adcanced Search"
 #~ msgstr "جستجو پیشرفته"
