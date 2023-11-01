@@ -1,10 +1,11 @@
 {
-  "icon.js": "/js/icon.bZE-aGu66.js",
-  "aside.js": "/js/aside.bZE-aGu66.js",
-  "cart.js": "/js/cart.bZE-aGu66.js",
-  "delay.js": "/js/delay.bZE-aGu66.js",
-  "lazyload.js": "/js/lazyload.bZE-aGu66.js",
-  "quantity.js": "/js/quantity.bZE-aGu66.js",
-  "analytics.js": "/js/analytics.bZE-aGu66.js",
-  "table.js": "/js/table.bZE-aGu66.js"
+  "icon.js": "/js/icon.pHu7q_dR9.js",
+  "aside.js": "/js/aside.pHu7q_dR9.js",
+  "cart.js": "/js/cart.pHu7q_dR9.js",
+  "delay.js": "/js/delay.pHu7q_dR9.js",
+  "lazyload.js": "/js/lazyload.pHu7q_dR9.js",
+  "quantity.js": "/js/quantity.pHu7q_dR9.js",
+  "analytics.js": "/js/analytics.pHu7q_dR9.js",
+  "comment.js": "/js/comment.pHu7q_dR9.js",
+  "table.js": "/js/table.pHu7q_dR9.js"
 }
