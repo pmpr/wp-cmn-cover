@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             65ae35f88042c             |
+    |             65e50f58a57d4             |
     |_______________________________________|
 */
- namespace Pmpr\Common\Cover\Comment; class Comment extends Common { public function mameiwsayuyquoeq() { Mediator::symcgieuakksimmu(); $owaoeyikmqaeegma = $this->caokeucsksukesyo()->owicscwgeuqcqaig(); if ($owaoeyikmqaeegma->euqowsuwmgokuqqo()) { goto amgsueumgaguceaa; } Form::symcgieuakksimmu(); Frontend::symcgieuakksimmu(); goto gygwewcqsmwqismo; amgsueumgaguceaa: Backend::symcgieuakksimmu(); gygwewcqsmwqismo: } public function wigskegsqequoeks() { $this->qcsmikeggeemccuu("\151\x6e\151\164", [$this, "\151\x6e\x69\164"], 0); } public function kgquecmsgcouyaya() { $this->aqaqisyssqeomwom(self::ukyommesgeqqcayq . "\x69\163\x5f\x61\154\154\x6f\167\137\162\x65\156\144\x65\162", [$this, "\x75\x69\x71\143\x77\163\157\x77\x77\x73\167\157\155\155\x6b\x61"]); } public function init() { SettingSection::symcgieuakksimmu(); } }
+ namespace Pmpr\Common\Cover\Comment; class Comment extends Common { public function mameiwsayuyquoeq() { Mediator::symcgieuakksimmu(); $owaoeyikmqaeegma = $this->caokeucsksukesyo()->owicscwgeuqcqaig(); if ($owaoeyikmqaeegma->euqowsuwmgokuqqo()) { goto uaqackioaiqwcocy; } Form::symcgieuakksimmu(); Frontend::symcgieuakksimmu(); goto cscusseysqygsoiy; uaqackioaiqwcocy: Backend::symcgieuakksimmu(); cscusseysqygsoiy: } public function wigskegsqequoeks() { $this->qcsmikeggeemccuu("\151\x6e\151\164", [$this, "\x69\x6e\151\x74"], 0); } public function kgquecmsgcouyaya() { $this->aqaqisyssqeomwom(self::ukyommesgeqqcayq . "\x69\163\137\141\x6c\154\x6f\167\137\x72\145\x6e\144\x65\x72", [$this, "\x75\151\161\143\x77\x73\x6f\x77\167\x73\x77\157\x6d\155\153\x61"]); } public function init() { SettingSection::symcgieuakksimmu(); } }
