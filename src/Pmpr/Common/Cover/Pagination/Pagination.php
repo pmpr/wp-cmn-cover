@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             66058600f1ef5             |
+    |             660dbf0b9b05a             |
     |_______________________________________|
 */
  namespace Pmpr\Common\Cover\Pagination; use Pmpr\Common\Cover\Container; class Pagination extends Container { public function mameiwsayuyquoeq() { Post::symcgieuakksimmu(); Custom::symcgieuakksimmu(); Comment::symcgieuakksimmu(); } }
