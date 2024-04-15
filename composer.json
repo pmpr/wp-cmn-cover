@@ -10,7 +10,7 @@
   ],
   "require": {
     "php": ">=7.4",
-    "pmpr-cmn/wp-cmn-foundation": "~1.3"
+    "pmpr-cmn/wp-cmn-foundation": "~1.4"
   },
   "prod-require": {
     "php": "7.4",
@@ -26,5 +26,5 @@
     ]
   },
   "minimum-stability": "dev",
-  "tag": "1.2.68"
+  "tag": "1.2.69"
 }
