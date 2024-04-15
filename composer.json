@@ -12,6 +12,11 @@
     "php": ">=7.4",
     "pmpr-cmn/wp-cmn-foundation": "~1.3"
   },
+  "prod-require": {
+    "php": "7.4",
+    "wordpress": "6.0",
+    "wp-cmn-foundation": "latest"
+  },
   "autoload": {
     "psr-4": {
       "Pmpr\\Common\\Cover\\": "src/Pmpr/Common/Cover"
@@ -21,5 +26,5 @@
     ]
   },
   "minimum-stability": "dev",
-  "tag": "1.2.67"
+  "tag": "1.2.68"
 }
