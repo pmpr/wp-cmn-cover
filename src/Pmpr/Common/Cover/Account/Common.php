@@ -4,4 +4,4 @@
     |             668107334b816             |
     |_______________________________________|
 */
- namespace Pmpr\Common\Cover\Customize\Setting; class UserMeta extends Setting { }
+ namespace Pmpr\Common\Cover\Account; use Pmpr\Common\Cover\Container; abstract class Common extends Container { }
