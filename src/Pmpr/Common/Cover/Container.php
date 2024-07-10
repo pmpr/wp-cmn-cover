@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             668707b80daa6             |
+    |             668f1d166ebcf             |
     |_______________________________________|
 */
  namespace Pmpr\Common\Cover; use Pmpr\Common\Foundation\Container\Container as BaseClass; abstract class Container extends BaseClass { public function cskmiyuaesumyigg() { return Setting::eiwcuqigayigimak(Setting::gqgseikcqgoiuqeg, 0); } public function sqogiksomgaoegcy() { return $this->uwkmaywceaaaigwo()->iqsmaqoiukeasukw()->oiucukewkckkwiqc($this->cskmiyuaesumyigg()); } }
