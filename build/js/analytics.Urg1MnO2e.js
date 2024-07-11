@@ -1,2 +1,2 @@
-/*! For license information please see analytics.aF93myQBO.js.LICENSE.txt */
+/*! For license information please see analytics.Urg1MnO2e.js.LICENSE.txt */
 window.addEventListener("DOMContentLoaded",(function(){function a(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],a("js",new Date),a("config","{ analytics_id }")}));
