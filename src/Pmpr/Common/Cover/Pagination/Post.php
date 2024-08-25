@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             66c31d321c131             |
+    |             66cb569a3cb08             |
     |_______________________________________|
 */
  namespace Pmpr\Common\Cover\Pagination; class Post extends Common { protected ?string $type = self::mswoacegomcucaik; public function kooycocagkkmaiay($ywmkwiwkosakssii = []) { return paginate_links($ywmkwiwkosakssii); } }
