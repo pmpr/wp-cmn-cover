@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             66e5ebd2b1ff7             |
+    |             66eae85a3b171             |
     |_______________________________________|
 */
  namespace Pmpr\Common\Cover\Widget; use Pmpr\Common\Foundation\Widget; abstract class Common extends Widget { }
