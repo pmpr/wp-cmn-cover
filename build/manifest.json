@@ -1,12 +1,14 @@
 {
-  "icon.js": "/js/icon.tTu45LSVE.js",
-  "aside.js": "/js/aside.tTu45LSVE.js",
-  "cart.js": "/js/cart.tTu45LSVE.js",
-  "delay.js": "/js/delay.tTu45LSVE.js",
-  "lazyload.js": "/js/lazyload.tTu45LSVE.js",
-  "quantity.js": "/js/quantity.tTu45LSVE.js",
-  "comment.js": "/js/comment.tTu45LSVE.js",
-  "analytics.js": "/js/analytics.tTu45LSVE.js",
-  "table.js": "/js/table.tTu45LSVE.js",
-  "link-rel.js": "/js/link-rel.tTu45LSVE.js"
+  "icon.js": "/js/icon.CI7Zmh0Id.js",
+  "aside.js": "/js/aside.CI7Zmh0Id.js",
+  "cart.js": "/js/cart.CI7Zmh0Id.js",
+  "delay.js": "/js/delay.CI7Zmh0Id.js",
+  "lazyload.js": "/js/lazyload.CI7Zmh0Id.js",
+  "quantity.js": "/js/quantity.CI7Zmh0Id.js",
+  "comment.js": "/js/comment.CI7Zmh0Id.js",
+  "analytics.js": "/js/analytics.CI7Zmh0Id.js",
+  "table.js": "/js/table.CI7Zmh0Id.js",
+  "link-rel.js": "/js/link-rel.CI7Zmh0Id.js",
+  "video.css": "/css/video.CI7Zmh0Id.css",
+  "video.js": "/js/video.CI7Zmh0Id.js"
 }
