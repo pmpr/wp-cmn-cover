@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             68078487a302c             |
+    |             6807a4ab176cc             |
     |_______________________________________|
 */
  namespace Pmpr\Common\Cover\Optimization\Cache; class Purge extends Common { }
