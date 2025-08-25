@@ -4,4 +4,4 @@
     |             68ac85826daa3             |
     |_______________________________________|
 */
- namespace Pmpr\Common\Cover\Search; class Search extends Common { public function mameiwsayuyquoeq() { Query::symcgieuakksimmu(); Frontend::symcgieuakksimmu(); } }
+ namespace Pmpr\Common\Cover\Error; use Pmpr\Common\Cover\Container; class Error extends Container { public function mameiwsayuyquoeq() { WPDie::symcgieuakksimmu(); } }
