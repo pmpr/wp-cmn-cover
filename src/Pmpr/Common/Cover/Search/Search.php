@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             68d3d236cc19e             |
+    |             68daeb715e2dc             |
     |_______________________________________|
 */
  namespace Pmpr\Common\Cover\Search; class Search extends Common { public function mameiwsayuyquoeq() { Query::symcgieuakksimmu(); Frontend::symcgieuakksimmu(); } }

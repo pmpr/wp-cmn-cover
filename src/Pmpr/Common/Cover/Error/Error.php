@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             68d3d236cc19e             |
+    |             68daeb715e2dc             |
     |_______________________________________|
 */
  namespace Pmpr\Common\Cover\Error; use Pmpr\Common\Cover\Container; class Error extends Container { public function mameiwsayuyquoeq() { WPDie::symcgieuakksimmu(); } }
